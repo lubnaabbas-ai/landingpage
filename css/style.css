@@ -131,7 +131,7 @@ section.features div[class*="col-"]:nth-child(even) {
     text-align: left;
 }
 
-footer {
+footer .top-footer{
     background-image: url(../images/footer-bg.jpg);
     background-size: cover;
     background-position: center center;
@@ -145,6 +145,9 @@ footer .top-footer .overlay {
 footer .top-footer .overlay h3 {
     font-size: 30px;
     margin-bottom: 30px;
+}
+footer .contact{
+    background-color: #000;
 }
 
 footer.contact .overlay {
