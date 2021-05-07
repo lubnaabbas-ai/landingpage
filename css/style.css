@@ -72,6 +72,8 @@ header .send-notification .input-group input, footer .input-group {
     border-width: 2px;
     border-color: #e6e6e6;
     border-radius: 0px;
+    padding-bottom: 30px;
+    padding-top: 23px;
 }
 
 header .send-notification .input-group button, footer button {
@@ -162,17 +164,19 @@ footer .contact .overlay h3 {
 }
 
 footer .contact .overlay ul li a {
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    display: block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    display: inline;;
     background-color: rgba(255, 225, 225, 0.14);
     color: #fff;
-    font-size: 1.2em;
+    font-size: 2em;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 footer .contact .overlay ul {
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 footer .contact .overlay ul li a:hover {
